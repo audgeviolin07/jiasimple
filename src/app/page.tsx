@@ -6,7 +6,7 @@ export default function Home() {
     <div style={{ width: '100%', minHeight: '100vh', position: 'relative' }}>
       <div className="fixed inset-0">
         <Dither
-          waveColor={[0.5, 0.5, 0.5]}
+          waveColor={[0.25, 0.25, 0.25]}
           disableAnimation={false}
           enableMouseInteraction={true}
           mouseRadius={0.3}
@@ -19,6 +19,20 @@ export default function Home() {
 
       <div className="relative z-10 flex items-center justify-center min-h-screen px-8 md:px-16 lg:px-24 py-16">
         <div className="flex flex-col md:flex-row items-start justify-between gap-8 md:gap-16 max-w-6xl w-full">
+          <div className="flex flex-col items-center gap-4 flex-shrink-0">
+            <Image
+              src="/jiame.png"
+              alt="Jia"
+              width={500}
+              height={500}
+              className="rounded-lg"
+              priority
+            />
+            <p className="text-white text-sm md:text-base max-w-sm leading-relaxed text-center">
+              i'm jia. i grew up as a sensitive and lonely weird gay girl with an active imagination in a conservative christian unpredictable asian immigrant household in the midwest. that should be pretty self explanatory for my career.
+            </p>
+          </div>
+
           <div className="text-white text-sm md:text-base max-w-lg leading-relaxed space-y-6">
             <div className="space-y-1">
               <p>reach me on twitter: <a href="https://twitter.com/jia_seed" className="underline hover:opacity-80">@jia_seed</a></p>
@@ -50,20 +64,6 @@ export default function Home() {
                 <li>got software engineering infra offers from disney and intuit</li>
               </ul>
             </div>
-          </div>
-
-          <div className="flex flex-col items-center gap-4 flex-shrink-0">
-            <Image
-              src="/jiame.png"
-              alt="Jia"
-              width={500}
-              height={500}
-              className="rounded-lg"
-              priority
-            />
-            <p className="text-white text-sm md:text-base max-w-sm leading-relaxed text-center">
-              i grew up as a sensitive and lonely weird gay girl with an active imagination in a conservative christian unpredictable asian immigrant household in the midwest. that should be pretty self explanatory for my career. 
-            </p>
           </div>
         </div>
       </div>
