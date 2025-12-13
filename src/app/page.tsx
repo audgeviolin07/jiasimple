@@ -28,12 +28,12 @@ export default function Home() {
               className="rounded-lg"
               priority
             />
-            <p className="text-white text-base md:text-lg lg:text-xl max-w-sm leading-relaxed text-center">
+            <p className="text-white text-sm md:text-base max-w-sm leading-relaxed text-center">
               i'm jia. i grew up as a sensitive and lonely weird gay girl with an active imagination in a conservative christian unpredictable asian immigrant household in the midwest. that should be pretty self explanatory for my career.
             </p>
           </div>
 
-          <div className="text-white text-base md:text-lg lg:text-xl max-w-lg leading-relaxed space-y-6">
+          <div className="text-white text-sm md:text-base max-w-lg leading-relaxed space-y-6">
             <p>
               i&apos;m co-founding sorcerer. any developer can get their customers by talking to ai @ <a href="https://usesorcerer.com" className="underline hover:opacity-80">usesorcerer.com</a>
             </p>
