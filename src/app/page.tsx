@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Dither from '@/components/Dither';
-import { Twitter, Mail, Globe, Github } from 'lucide-react';
+import { Twitter, Mail, Github } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -41,9 +41,6 @@ export default function Home() {
               </a>
               <a href="mailto:jiachiachen@gmail.com" className="hover:opacity-80">
                 <Mail size={20} />
-              </a>
-              <a href="https://www.jia.build" className="hover:opacity-80" target="_blank" rel="noopener noreferrer">
-                <Globe size={20} />
               </a>
               <a href="https://github.com/audgeviolin07" className="hover:opacity-80" target="_blank" rel="noopener noreferrer">
                 <Github size={20} />
