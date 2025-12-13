@@ -6,7 +6,7 @@ export default function Home() {
     <div style={{ width: '100%', minHeight: '100vh', position: 'relative' }}>
       <div className="fixed inset-0">
         <Dither
-          waveColor={[0.2, 0.4, 0.8]}
+          waveColor={[0.5, 0.5, 0.5]}
           disableAnimation={false}
           enableMouseInteraction={true}
           mouseRadius={0.3}
@@ -62,7 +62,7 @@ export default function Home() {
               priority
             />
             <p className="text-white text-sm md:text-base max-w-sm leading-relaxed text-center">
-              i grew up as a sensitive and lonely weird gay girl with an active imagination in a conservative christian unpredictable asian immigrant household in the midwest.
+              i grew up as a sensitive and lonely weird gay girl with an active imagination in a conservative christian unpredictable asian immigrant household in the midwest. that should be pretty self explanatory for my career. 
             </p>
           </div>
         </div>
