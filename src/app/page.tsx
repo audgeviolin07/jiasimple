@@ -39,10 +39,9 @@ export default function Home() {
             </p>
 
             <div>
-              <p>unrelated things im interested in right now:</p>
+              <p>unrelated things i'm interested in right now:</p>
               <ul className="list-disc list-inside">
                 <li>open source typescript rate limiting analytics library</li>
-                <li>email outreach optimization</li>
               </ul>
             </div>
 
