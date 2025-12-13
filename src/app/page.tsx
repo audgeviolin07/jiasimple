@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Dither from '@/components/Dither';
+import { Twitter, Mail, Globe, Github } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -34,6 +35,21 @@ export default function Home() {
           </div>
 
           <div className="text-white text-sm md:text-base max-w-lg leading-relaxed space-y-6">
+            <div className="flex gap-4">
+              <a href="https://twitter.com/jia_seed" className="hover:opacity-80" target="_blank" rel="noopener noreferrer">
+                <Twitter size={20} />
+              </a>
+              <a href="mailto:jiachiachen@gmail.com" className="hover:opacity-80">
+                <Mail size={20} />
+              </a>
+              <a href="https://www.jia.build" className="hover:opacity-80" target="_blank" rel="noopener noreferrer">
+                <Globe size={20} />
+              </a>
+              <a href="https://github.com/audgeviolin07" className="hover:opacity-80" target="_blank" rel="noopener noreferrer">
+                <Github size={20} />
+              </a>
+            </div>
+
             <p>
               i&apos;m co-founding sorcerer. any developer can get their customers by talking to ai @ <a href="https://usesorcerer.com" className="underline hover:opacity-80">usesorcerer.com</a>
             </p>
