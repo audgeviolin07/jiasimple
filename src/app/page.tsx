@@ -30,7 +30,7 @@ export default function Home() {
               priority
             />
             <p className="text-white text-sm md:text-base leading-relaxed text-left w-full md:w-[500px]">
-              i'm jia. i grew up as a sensitive and lonely gay girl with an active imagination in an unpredictable conservative christian asian immigrant household in the midwest. that should be pretty self-explanatory for my career.
+              i'm jia (佳)(jiā). i grew up as a sensitive and lonely gay girl with an active imagination in an unpredictable conservative christian asian immigrant household in the midwest. that should be pretty self-explanatory for my career.
             </p>
           </div>
 
