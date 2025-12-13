@@ -18,7 +18,7 @@ export default function Home() {
       </div>
 
       <div className="relative z-10 flex items-center justify-center min-h-screen p-8 md:p-16 lg:p-24">
-        <div className="flex flex-col md:flex-row items-start justify-between gap-8 md:gap-16 max-w-6xl w-full p-8 md:p-12 rounded-3xl" style={{ background: 'radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0.3) 65%, transparent 75%)' }}>
+        <div className="flex flex-col md:flex-row items-start justify-between gap-8 md:gap-16 max-w-6xl w-full p-8 md:p-12 rounded-3xl" style={{ background: 'radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, transparent 60%)' }}>
           <div className="flex flex-col items-center gap-4 flex-shrink-0">
             <Image
               src="/jiame.png"
