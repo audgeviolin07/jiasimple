@@ -28,7 +28,7 @@ export default function Home() {
               className="rounded-lg"
               priority
             />
-            <p className="text-white text-sm md:text-base max-w-sm leading-relaxed text-center">
+            <p className="text-white text-sm md:text-base leading-relaxed text-left w-full md:w-[500px]">
               i'm jia. i grew up as a sensitive and lonely gay girl with an active imagination in a conservative christian unpredictable asian immigrant household in the midwest. that should be pretty self explanatory for my career.
             </p>
           </div>
