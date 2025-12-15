@@ -54,7 +54,7 @@ export default function Home() {
             <div>
               <p>unrelated things i'm interested in right now:</p>
               <ul className="list-disc list-inside">
-                <li>open source typescript rate limiting analytics library @ <a href="https://asillios.com" className="underline hover:opacity-80">asillios.com</a> (pls star on github if you see this)</li>
+                <li>open source typescript rate limiting analytics library @ <a href="https://asillios.com" className="underline hover:opacity-80">asillios.com</a> <span className="text-red-500">(pls star on github if you see this)</span></li>
               </ul>
             </div>
 
