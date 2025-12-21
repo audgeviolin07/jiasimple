@@ -51,10 +51,6 @@ export default function Home() {
               i&apos;m co-founding sorcerer. any developer can get their customers by talking to ai @ <a href="https://usesorcerer.com" className="underline hover:opacity-80">usesorcerer.com</a>
             </p>
 
-            <p>
-              2025 portfolio @ <a href="https://www.jiaseed.com/" className="underline hover:opacity-80" target="_blank" rel="noopener noreferrer">jiaseed.com</a>
-            </p>
-
             <div>
               <p>unrelated things i'm interested in right now:</p>
               <ul className="list-disc list-inside">
@@ -73,6 +69,10 @@ export default function Home() {
                 <li>got software engineering infra offers from disney and intuit</li>
               </ul>
             </div>
+
+            <p>
+              2025 portfolio @ <a href="https://www.jiaseed.com/" className="underline hover:opacity-80" target="_blank" rel="noopener noreferrer">jiaseed.com</a>
+            </p>
           </div>
         </div>
       </div>
