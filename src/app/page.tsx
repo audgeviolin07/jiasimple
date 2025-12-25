@@ -29,7 +29,7 @@ export default function Home() {
               className="rounded-lg"
               priority
             />
-            <p className="text-white text-sm md:text-base leading-relaxed text-left w-full md:w-[280px]">
+            <p className="text-white text-sm md:text-base leading-relaxed text-left w-full md:w-[350px]">
               i'm jia (佳)(jiā). i grew up a sensitive gay girl with an imagination in an unpredictable conservative christian asian immigrant household in the midwest. self-explanatory for my career.
             </p>
           </div>
@@ -46,10 +46,6 @@ export default function Home() {
                 <Github size={20} />
               </a>
             </div>
-
-            <p>
-              current thought: hi -11:52pm est, dec 21st, 2025
-            </p>
 
             <p>
               i&apos;m co-founding sorcerer. any developer can get their customers by talking to ai @ <a href="https://usesorcerer.com" className="underline hover:opacity-80">usesorcerer.com</a>
