@@ -19,18 +19,18 @@ export default function Home() {
       </div>
 
       <div className="relative z-10 flex items-center justify-center min-h-screen p-8 md:p-16 lg:p-24">
-        <div className="flex flex-col md:flex-row items-start justify-between gap-8 md:gap-16 max-w-6xl w-full p-8 md:p-12 rounded-3xl" style={{ background: 'radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, transparent 60%)' }}>
+        <div className="flex flex-col md:flex-row items-start justify-center gap-8 md:gap-10 max-w-4xl w-full p-8 md:p-12 rounded-3xl" style={{ background: 'radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, transparent 60%)' }}>
           <div className="flex flex-col items-center gap-4 flex-shrink-0">
             <Image
               src="/jiame.png"
               alt="Jia"
-              width={500}
-              height={500}
+              width={200}
+              height={200}
               className="rounded-lg"
               priority
             />
-            <p className="text-white text-sm md:text-base leading-relaxed text-left w-full md:w-[500px]">
-              i'm jia (佳)(jiā). i grew up as a sensitive and lonely gay girl with an active imagination in an unpredictable conservative christian asian immigrant household in the midwest. that should be pretty self-explanatory for my career.
+            <p className="text-white text-sm md:text-base leading-relaxed text-left w-full md:w-[280px]">
+              i'm jia (佳)(jiā). i grew up a sensitive gay girl with an imagination in an unpredictable conservative christian asian immigrant household in the midwest. self-explanatory for my career.
             </p>
           </div>
 
@@ -46,6 +46,10 @@ export default function Home() {
                 <Github size={20} />
               </a>
             </div>
+
+            <p>
+              current thought: hi -11:52pm est, dec 21st, 2025
+            </p>
 
             <p>
               i&apos;m co-founding sorcerer. any developer can get their customers by talking to ai @ <a href="https://usesorcerer.com" className="underline hover:opacity-80">usesorcerer.com</a>
