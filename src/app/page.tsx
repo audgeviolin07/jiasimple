@@ -48,7 +48,7 @@ export default function Home() {
             </div>
 
             <p>
-              i&apos;m co-founding sorcerer. any developer can get their customers by talking to ai @ <a href="https://usesorcerer.com" className="underline hover:opacity-80">usesorcerer.com</a>
+              i&apos;m co-founding sorcerer. any developer can get their customers by talking to ai @ <a href="https://usesorcerer.com" className="underline hover:opacity-80">usesorcerer.com</a> (progressing into a frontier lab for sentiment)
             </p>
 
             <div>
