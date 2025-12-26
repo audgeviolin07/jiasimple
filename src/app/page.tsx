@@ -4,8 +4,8 @@ import { Twitter, Mail, Github } from 'lucide-react';
 
 export default function Home() {
   return (
-    <div style={{ width: '100%', minHeight: '100vh', position: 'relative' }}>
-      <div className="fixed inset-0">
+    <div style={{ width: '100%', minHeight: '100vh', position: 'relative', backgroundColor: '#000' }}>
+      {/* <div className="fixed inset-0">
         <Dither
           waveColor={[0.25, 0.25, 0.25]}
           disableAnimation={false}
@@ -16,7 +16,7 @@ export default function Home() {
           waveFrequency={3}
           waveSpeed={0.05}
         />
-      </div>
+      </div> */}
 
       <div className="relative z-10 flex items-center justify-center min-h-screen p-8 md:p-16 lg:p-24">
         <div className="flex flex-col md:flex-row items-start justify-center gap-8 md:gap-10 max-w-4xl w-full p-8 md:p-12 rounded-3xl" style={{ background: 'radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, transparent 60%)' }}>
@@ -58,9 +58,9 @@ export default function Home() {
               </ul>
             </div>
 
-            <div>
-              <p>previous stuff i did:</p>
-              <ul className="list-disc list-inside">
+            <details>
+              <summary className="cursor-pointer hover:opacity-80">previous stuff i did</summary>
+              <ul className="list-disc list-inside mt-2">
                 <li>co-built sprint.dev. devtool distribution platform. 20k users in 5 months, 48k profit</li>
                 <li>won 23 hackathons at places like yc, upenn, princeton</li>
                 <li>240k streams on spotify and apple music as an indie musician</li>
@@ -68,7 +68,7 @@ export default function Home() {
                 <li>drone research at nasa usrc</li>
                 <li>got software engineering infra offers from disney and intuit</li>
               </ul>
-            </div>
+            </details>
 
             <p>
               2025 portfolio @ <a href="https://www.jiaseed.com/" className="underline hover:opacity-80" target="_blank" rel="noopener noreferrer">jiaseed.com</a>
