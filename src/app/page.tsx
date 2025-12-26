@@ -20,17 +20,17 @@ export default function Home() {
 
       <div className="relative z-10 flex items-center justify-center min-h-screen p-8 md:p-16 lg:p-24">
         <div className="flex flex-col md:flex-row items-start justify-center gap-8 md:gap-10 max-w-4xl w-full p-8 md:p-12 rounded-3xl" style={{ background: 'radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, transparent 60%)' }}>
-          <div className="flex flex-col items-center gap-4 flex-shrink-0">
+          <div className="flex flex-col items-center flex-shrink-0 justify-between h-full">
             <Image
-              src="/jiame.png"
+              src="/jiamelong.png"
               alt="Jia"
-              width={200}
-              height={200}
+              width={250}
+              height={250}
               className="rounded-lg"
               priority
             />
-            <p className="text-white text-sm md:text-base leading-relaxed text-left w-full md:w-[350px]">
-              i'm jia (佳)(jiā). i grew up a sensitive gay girl with an imagination in an unpredictable conservative christian asian immigrant household in the midwest. self-explanatory for my career.
+            <p className="text-white text-sm md:text-base leading-relaxed text-left w-[250px] mt-4">
+              i'm jia (佳)(jiā). i grew up a sensitive gay girl with an active imagination in an unpredictable conservative asian immigrant household in the midwest.
             </p>
           </div>
 
@@ -68,11 +68,10 @@ export default function Home() {
                 <li>drone research at nasa usrc</li>
                 <li>got software engineering infra offers from disney and intuit</li>
               </ul>
+              <p className="mt-2">
+                2025 portfolio @ <a href="https://www.jiaseed.com/" className="underline hover:opacity-80" target="_blank" rel="noopener noreferrer">jiaseed.com</a>
+              </p>
             </details>
-
-            <p>
-              2025 portfolio @ <a href="https://www.jiaseed.com/" className="underline hover:opacity-80" target="_blank" rel="noopener noreferrer">jiaseed.com</a>
-            </p>
           </div>
         </div>
       </div>
