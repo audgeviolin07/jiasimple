@@ -54,7 +54,7 @@ export default function Home() {
             <div>
               <p>also currently hacking:</p>
               <ul className="list-disc list-inside">
-                <li>open source typescript rate limiting analytics library @ <a href="https://asillios.com" className="underline hover:opacity-80">asillios.com</a> ⭐60+ github stars <span className="text-red-300">(star on github if you see this)</span></li>
+                <li>open source typescript rate limiting analytics library @ <a href="https://asillios.com" className="underline hover:opacity-80">asillios.com</a> ⭐60+ github stars <a href="https://github.com/audgeviolin07/asillios-limiter" className="text-red-300 underline hover:opacity-80">(star on github if you see this)</a></li>
               </ul>
             </div>
 
