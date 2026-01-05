@@ -32,6 +32,9 @@ export default function Home() {
             <p className="text-white text-sm md:text-base leading-relaxed text-left w-[250px] mt-4">
               i'm jia (佳)(jiā). i grew up a sensitive gay girl with an active imagination in an unpredictable conservative asian immigrant household in the midwest.
             </p>
+            <p className="text-sm md:text-base leading-relaxed text-left w-[250px] mt-2" style={{ color: '#D8B4FE' }}>
+              hey patti it's sweet you view this
+            </p>
           </div>
 
           <div className="text-white text-sm md:text-base max-w-lg leading-relaxed space-y-6">
