@@ -39,6 +39,12 @@ export default function Home() {
           </div>
 
           <div className="text-white text-sm md:text-base max-w-lg leading-relaxed space-y-6">
+            <nav className="flex justify-end gap-4 -mt-8 mb-2">
+              <a href="/about" className="hover:opacity-80">about</a>
+              <a href="/friends" className="hover:opacity-80">friends</a>
+              <a href="/writing" className="hover:opacity-80">writing</a>
+            </nav>
+
             <div className="flex gap-4">
               <a href="https://twitter.com/jia_seed" className="hover:opacity-80" target="_blank" rel="noopener noreferrer">
                 <Twitter size={20} />
