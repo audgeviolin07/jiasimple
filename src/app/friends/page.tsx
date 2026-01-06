@@ -20,10 +20,11 @@ export default function Friends() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-8">
               <div className="flex flex-col items-center">
                 <p>aawarty</p>
+                <Image src="/aawarty.png" alt="aawarty" width={180} height={180} className="rounded-lg mt-2" />
               </div>
               <div className="flex flex-col items-center">
                 <p>mohammad</p>
-                <Image src="/johammad.png" alt="mohammad" width={100} height={100} className="rounded-lg mt-2" />
+                <Image src="/mohammad.png" alt="mohammad" width={180} height={180} className="rounded-lg mt-2" />
               </div>
               <div className="flex flex-col items-center">
                 <p>raymond</p>
@@ -35,12 +36,14 @@ export default function Friends() {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 justify-items-center">
               <div className="flex flex-col items-center">
                 <p>patricia</p>
+                <Image src="/patricia.png" alt="patricia" width={180} height={180} className="rounded-lg mt-2" />
               </div>
               <div className="flex flex-col items-center">
                 <p>emily</p>
               </div>
               <div className="flex flex-col items-center">
                 <p>elly</p>
+                <Image src="/elly.png" alt="elly" width={180} height={180} className="rounded-lg mt-2" />
               </div>
             </div>
           <p className="mt-8 text-center">...and more, adding u guys soon lol</p>
