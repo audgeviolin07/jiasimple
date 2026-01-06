@@ -33,7 +33,7 @@ export default function Home() {
             <p className="text-white text-base leading-relaxed text-left w-full max-w-lg md:w-[250px] mt-4">
               i'm jia (佳)(jiā). i grew up a sensitive gay girl with an active imagination in an unpredictable conservative asian immigrant household in the midwest.
             </p>
-            <p className="text-base leading-relaxed text-left w-full max-w-lg md:w-[250px] mt-2" style={{ color: '#D8B4FE' }}>
+            <p className="text-white text-base leading-relaxed text-left w-full max-w-lg md:w-[250px] mt-2">
               hey patti it's sweet you view this
             </p>
           </div>
@@ -71,7 +71,7 @@ export default function Home() {
             <div>
               <p>also currently hacking:</p>
               <ul className="list-disc list-inside">
-                <li>open source typescript rate limiting analytics library @ <a href="https://asillios.com" className="underline hover:opacity-80">asillios.com</a> <a href="https://github.com/audgeviolin07/asillios-limiter"><img src="https://img.shields.io/github/stars/audgeviolin07/asillios-limiter?style=social" alt="GitHub stars" className="inline-block align-middle h-6" /></a> <a href="https://github.com/audgeviolin07/asillios-limiter" className="text-red-300 underline hover:opacity-80"> (star on github if you see this)</a></li>
+                <li>open source typescript rate limiting analytics library @ <a href="https://asillios.com" className="underline hover:opacity-80">asillios.com</a> <a href="https://github.com/audgeviolin07/asillios-limiter"><img src="https://img.shields.io/github/stars/audgeviolin07/asillios-limiter?style=social" alt="GitHub stars" className="inline-block align-middle h-6" /></a> <a href="https://github.com/audgeviolin07/asillios-limiter" className="underline hover:opacity-80"> (star on github if you see this)</a></li>
               </ul>
             </div>
 

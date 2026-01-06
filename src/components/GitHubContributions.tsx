@@ -85,7 +85,7 @@ export default function GitHubContributions({ username = "audgeviolin07" }: GitH
             contributionsData.push({
               date: day.date,
               contributionCount: day.contributionCount,
-              color: day.color || getContributionColor(day.contributionCount)
+              color: getContributionColor(day.contributionCount)
             })
           })
         })
@@ -103,11 +103,11 @@ export default function GitHubContributions({ username = "audgeviolin07" }: GitH
   }, [username])
 
   const getContributionColor = (count: number): string => {
-    if (count === 0) return '#ebedf0'
-    if (count <= 1) return '#9be9a8'
-    if (count <= 2) return '#40c463'
-    if (count <= 3) return '#30a14e'
-    return '#216e39'
+    if (count === 0) return '#333333'
+    if (count <= 1) return '#666666'
+    if (count <= 2) return '#888888'
+    if (count <= 3) return '#aaaaaa'
+    return '#cccccc'
   }
 
   const renderContributionGrid = () => {
@@ -148,6 +148,12 @@ export default function GitHubContributions({ username = "audgeviolin07" }: GitH
 
     return (
       <div className="w-full flex justify-center">
+        <svg width="0" height="0" className="absolute">
+          <filter id="dither">
+            <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" result="noise" />
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="1" xChannelSelector="R" yChannelSelector="G" />
+          </filter>
+        </svg>
         <div className="w-full max-w-fit overflow-x-auto">
           <div className="flex justify-center gap-[1px] xs:gap-[2px] sm:gap-[3px] md:gap-1 lg:gap-1.5 mx-auto w-fit">
             {weeks.map((week, weekIndex) => (
@@ -159,7 +165,8 @@ export default function GitHubContributions({ username = "audgeviolin07" }: GitH
                       key={dayIndex}
                       className="w-[4px] h-[4px] xs:w-[5px] xs:h-[5px] sm:w-[5px] sm:h-[5px] md:w-[6px] md:h-[6px] lg:w-[6px] lg:h-[6px] xl:w-[7px] xl:h-[7px] transition-all duration-200"
                       style={{
-                        backgroundColor: day ? day.color : '#ebedf0'
+                        backgroundColor: day ? day.color : '#1a1a1a',
+                        filter: 'url(#dither)'
                       }}
                       title={day ? `${day.contributionCount} contributions on ${day.date}` : ''}
                     />
@@ -180,7 +187,7 @@ export default function GitHubContributions({ username = "audgeviolin07" }: GitH
       transition={{ duration: 0.8, delay: 0.3 }}
       className="w-full mt-4 md:mt-6"
     >
-      <div className="mx-auto w-fit rounded border border-sepia-medium/50 bg-beige-light/10 dark:bg-sepia-dark/5 px-2 py-2 sm:px-3 sm:py-2 overflow-hidden">
+      <div className="mx-auto w-fit rounded-sm border border-sepia-medium/50 bg-beige-light/10 dark:bg-sepia-dark/5 px-2 py-2 sm:px-3 sm:py-2 overflow-hidden">
         <div className="mx-auto w-full">
           {renderContributionGrid()}
         </div>
