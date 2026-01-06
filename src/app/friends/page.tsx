@@ -16,9 +16,16 @@ export default function Friends() {
       </nav>
 
       <div className="relative z-10 min-h-screen p-8 md:p-16 lg:p-24 max-w-3xl mx-auto">
-        <div className="text-white text-sm md:text-base leading-relaxed space-y-8">
+        <div className="text-white text-base leading-relaxed space-y-8">
           <h1 className="text-2xl md:text-3xl">friends</h1>
-          <p>coming soon</p>
+          <ul className="space-y-2">
+            <li>aawarty</li>
+            <li>mohammad</li>
+            <li>chloe</li>
+            <li>raymond</li>
+            <li>patricia</li>
+            <li>elly</li>
+          </ul>
         </div>
       </div>
     </div>
