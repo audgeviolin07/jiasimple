@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Dither from '@/components/Dither';
+import GitHubContributions from '@/components/GitHubContributions';
 import { Twitter, Mail, Github } from 'lucide-react';
 
 export default function Home() {
@@ -54,10 +55,12 @@ export default function Home() {
               i&apos;m co-founding sorcerer. any developer can get their customers by talking to ai @ <a href="https://usesorcerer.com" className="underline hover:opacity-80">usesorcerer.com</a> (progressing into a frontier lab for sentiment)
             </p>
 
+            <GitHubContributions />
+
             <div>
               <p>also currently hacking:</p>
               <ul className="list-disc list-inside">
-                <li>open source typescript rate limiting analytics library @ <a href="https://asillios.com" className="underline hover:opacity-80">asillios.com</a> <a href="https://github.com/audgeviolin07/asillios-limiter"><img src="https://img.shields.io/github/stars/audgeviolin07/asillios-limiter?style=social" alt="GitHub stars" className="inline-block align-middle h-6" /></a> <a href="https://github.com/audgeviolin07/asillios-limiter" className="text-red-300 underline hover:opacity-80">(star on github if you see this)</a></li>
+                <li>open source typescript rate limiting analytics library @ <a href="https://asillios.com" className="underline hover:opacity-80">asillios.com</a> <a href="https://github.com/audgeviolin07/asillios-limiter"><img src="https://img.shields.io/github/stars/audgeviolin07/asillios-limiter?style=social" alt="GitHub stars" className="inline-block align-middle h-6" /></a> <a href="https://github.com/audgeviolin07/asillios-limiter" className="text-red-300 underline hover:opacity-80"> (star on github if you see this)</a></li>
               </ul>
             </div>
 
