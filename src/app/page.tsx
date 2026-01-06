@@ -20,7 +20,7 @@ export default function Home() {
       </div> */}
 
       <div className="relative z-10 flex items-center justify-center min-h-screen p-8 md:p-16 lg:p-24">
-        <div className="flex flex-col md:flex-row items-start justify-center gap-8 md:gap-10 max-w-4xl w-full p-8 md:p-12 rounded-3xl" style={{ background: 'radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, transparent 60%)' }}>
+        <div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-8 md:gap-10 max-w-4xl w-full p-8 md:p-12 rounded-3xl" style={{ background: 'radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, transparent 60%)' }}>
           <div className="flex flex-col items-center flex-shrink-0 justify-between h-full">
             <Image
               src="/seedimage.png"
@@ -30,10 +30,10 @@ export default function Home() {
               className="rounded-lg"
               priority
             />
-            <p className="text-white text-sm md:text-base leading-relaxed text-left w-[250px] mt-4">
+            <p className="text-white text-base leading-relaxed text-left w-full max-w-lg md:w-[250px] mt-4">
               i'm jia (佳)(jiā). i grew up a sensitive gay girl with an active imagination in an unpredictable conservative asian immigrant household in the midwest.
             </p>
-            <p className="text-sm md:text-base leading-relaxed text-left w-[250px] mt-2" style={{ color: '#D8B4FE' }}>
+            <p className="text-base leading-relaxed text-left w-full max-w-lg md:w-[250px] mt-2" style={{ color: '#D8B4FE' }}>
               hey patti it's sweet you view this
             </p>
           </div>
@@ -49,7 +49,7 @@ export default function Home() {
           <a href="/writing" className="hover:opacity-80">writing</a>
         </nav>
 
-        <div className="text-white text-sm md:text-base max-w-lg leading-relaxed space-y-6">
+        <div className="text-white text-base max-w-lg leading-relaxed space-y-6">
             <div className="flex gap-4">
               <a href="https://twitter.com/jia_seed" className="hover:opacity-80" target="_blank" rel="noopener noreferrer">
                 <Twitter size={20} />
