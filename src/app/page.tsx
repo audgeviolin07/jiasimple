@@ -23,7 +23,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-start justify-center gap-8 md:gap-10 max-w-4xl w-full p-8 md:p-12 rounded-3xl" style={{ background: 'radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, transparent 60%)' }}>
           <div className="flex flex-col items-center flex-shrink-0 justify-between h-full">
             <Image
-              src="/jiamelong.png"
+              src="/seedimage.png"
               alt="Jia"
               width={250}
               height={250}

@@ -17,7 +17,8 @@ export default function About() {
 
       <div className="relative z-10 min-h-screen p-8 md:p-16 lg:p-24">
         <div className="max-w-3xl mx-auto pt-8">
-          <div className="text-white text-sm md:text-base leading-relaxed space-y-8">
+          <div className="text-white text-base leading-relaxed space-y-8">
+            <Image src="/jiamelong.png" alt="Jia" width={250} height={250} className="rounded-lg mb-4" />
             <h1 className="text-2xl md:text-3xl">who i am</h1>
 
           <section className="space-y-4">

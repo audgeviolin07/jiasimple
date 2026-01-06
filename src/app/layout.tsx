@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "jia portfolio",
   description: "jia information",
   icons: {
-    icon: "/jiame.png",
+    icon: "/seedimage.png",
   },
 };
 
