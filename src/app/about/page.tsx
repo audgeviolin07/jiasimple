@@ -15,14 +15,15 @@ export default function About() {
         <Link href="/writing" className="hover:opacity-80">writing</Link>
       </nav>
 
-      <div className="relative z-10 flex items-start justify-center min-h-screen p-8 md:p-16 lg:p-24 pt-24 md:pt-32">
-        <div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-8 md:gap-10 max-w-4xl w-full p-8 md:p-12">
+      <div className="relative z-10 flex items-start justify-center min-h-screen p-8 md:p-16 lg:p-24">
+        <div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-8 md:gap-10 max-w-4xl w-full p-8 md:p-12 mt-16 md:mt-24">
           <div className="flex flex-col items-center flex-shrink-0 w-[250px]">
             <Image src="/jiamelong.png" alt="Jia" width={250} height={250} className="rounded-lg" />
           </div>
 
           <div className="text-white text-base max-w-lg leading-relaxed space-y-6">
-
+            <p>my entire life story</p>
+            
             <p>since i was young, i couldn&apos;t keep my hands still.</p>
 
             <p>my earliest recollection of life was in preschool, counting beads with an abacus. there was a snack drawer with saltine crackers and cheddar cheese. i remember reading this book about sticky gum. from then on i read all the books and that started my journey of becoming an avid reader.</p>
