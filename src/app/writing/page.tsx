@@ -15,10 +15,13 @@ export default function Writing() {
         <Link href="/writing" className="hover:opacity-80">writing</Link>
       </nav>
 
-      <div className="relative z-10 min-h-screen p-8 md:p-16 lg:p-24 max-w-3xl mx-auto">
-        <div className="text-white text-sm md:text-base leading-relaxed space-y-8">
-          <h1 className="text-2xl md:text-3xl">writing</h1>
-          <p>coming soon</p>
+      <div className="relative z-10 flex items-start justify-center min-h-screen p-8 md:p-16 lg:p-24">
+        <div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-8 md:gap-10 max-w-4xl w-full p-8 md:p-12">
+          <div className="hidden md:block w-[250px] flex-shrink-0"></div>
+
+          <div className="text-white text-base max-w-lg leading-relaxed space-y-6">
+            <p>coming soon</p>
+          </div>
         </div>
       </div>
     </div>
