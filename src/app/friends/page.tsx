@@ -40,7 +40,7 @@ export default function Friends() {
                 <p>emily</p>
               </div>
               <div className="flex flex-col items-center">
-                <p>emily</p>
+                <p>elly</p>
               </div>
             </div>
           <p className="mt-8 text-center">...and more, adding u guys soon lol</p>
