@@ -17,6 +17,17 @@ export default function GitHubContributions({ username = "audgeviolin07" }: GitH
   const [contributions, setContributions] = useState<ContributionDay[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
+  const [currentTime, setCurrentTime] = useState<string>("")
+
+  useEffect(() => {
+    const updateTime = () => {
+      const now = new Date()
+      setCurrentTime(now.toLocaleTimeString())
+    }
+    updateTime()
+    const interval = setInterval(updateTime, 1000)
+    return () => clearInterval(interval)
+  }, [])
 
   useEffect(() => {
     const fetchContributions = async () => {
@@ -173,7 +184,9 @@ export default function GitHubContributions({ username = "audgeviolin07" }: GitH
         <div className="mx-auto w-full">
           {renderContributionGrid()}
         </div>
-
+        <p className="text-center text-[8px] sm:text-[10px] text-white mt-2">
+          github contributions, live updated · {currentTime}
+        </p>
       </div>
     </motion.div>
   )
