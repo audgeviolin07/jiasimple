@@ -15,8 +15,8 @@ export default function Friends() {
         <Link href="/writing" className="hover:opacity-80">writing</Link>
       </nav>
 
-      <div className="relative z-10 flex items-center justify-center min-h-screen p-8 md:p-16 lg:p-24">
-        <div className="text-white text-base leading-relaxed w-full max-w-4xl">
+      <div className="relative z-10 flex items-start justify-center min-h-screen p-8 md:p-16 lg:p-24">
+        <div className="text-white text-base leading-relaxed w-full max-w-4xl mt-16 md:mt-24">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-8">
               <div className="flex flex-col items-center">
                 <p>aawarty</p>
@@ -28,22 +28,29 @@ export default function Friends() {
               </div>
               <div className="flex flex-col items-center">
                 <p>raymond</p>
+                <Image src="/raymond.png" alt="raymond" width={180} height={180} className="rounded-lg mt-2" />
               </div>
               <div className="flex flex-col items-center">
                 <p>chloe</p>
+                <Image src="/chloe.png" alt="chloe" width={180} height={180} className="rounded-lg mt-2" />
               </div>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 justify-items-center">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 justify-items-center">
               <div className="flex flex-col items-center">
                 <p>patricia</p>
                 <Image src="/patricia.png" alt="patricia" width={180} height={180} className="rounded-lg mt-2" />
               </div>
               <div className="flex flex-col items-center">
                 <p>emily</p>
+                <Image src="/emily.png" alt="emily" width={180} height={180} className="rounded-lg mt-2" />
               </div>
               <div className="flex flex-col items-center">
                 <p>elly</p>
                 <Image src="/elly.png" alt="elly" width={180} height={180} className="rounded-lg mt-2" />
+              </div>
+              <div className="flex flex-col items-center">
+                <p>hackathon friends</p>
+                <Image src="/hackathonfriends.png" alt="hackathon friends" width={180} height={180} className="rounded-lg mt-2" />
               </div>
             </div>
           <p className="mt-8 text-center">...and more, adding u guys soon lol</p>
