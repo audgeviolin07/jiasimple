@@ -25,6 +25,7 @@ export default function Friends() {
             <li>raymond</li>
             <li>patricia</li>
             <li>elly</li>
+            <li>...and more</li>
           </ul>
         </div>
       </div>
