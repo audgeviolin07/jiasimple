@@ -157,7 +157,7 @@ export default function GitHubContributions({ username = "audgeviolin07" }: GitH
                   return (
                     <div
                       key={dayIndex}
-                      className="w-[6px] h-[6px] xs:w-[7px] xs:h-[7px] sm:w-[8px] sm:h-[8px] md:w-[9px] md:h-[9px] lg:w-[10px] lg:h-[10px] xl:w-[11px] xl:h-[11px] transition-all duration-200"
+                      className="w-[4px] h-[4px] xs:w-[5px] xs:h-[5px] sm:w-[5px] sm:h-[5px] md:w-[6px] md:h-[6px] lg:w-[6px] lg:h-[6px] xl:w-[7px] xl:h-[7px] transition-all duration-200"
                       style={{
                         backgroundColor: day ? day.color : '#ebedf0'
                       }}
