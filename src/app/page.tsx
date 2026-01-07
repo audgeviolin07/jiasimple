@@ -33,10 +33,7 @@ export default function Home() {
             <p className="text-white text-base leading-relaxed text-left w-full max-w-lg md:w-[250px] mt-4">
               i'm jia (佳)(jiā). i grew up a sensitive gay girl with an active imagination in an unpredictable conservative asian immigrant household in the midwest.
             </p>
-            <p className="text-white text-base leading-relaxed text-left w-full max-w-lg md:w-[250px] mt-2">
-              hey patti it's sweet you view this
-            </p>
-          </div>
+                      </div>
 
           <a href="/" className="fixed top-6 left-6 md:top-8 md:left-12 lg:top-10 lg:left-16 flex items-center gap-2 text-white text-sm md:text-base z-20 hover:opacity-80">
             <Image src="/seedimage.png" alt="seed" width={20} height={20} />
