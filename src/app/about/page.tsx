@@ -70,6 +70,8 @@ export default function About() {
               <li>&quot;i know you&apos;ll succeed in the brutal tech scene&quot; - she was a sweetheart, in public health and deeply loyal</li>
             </ul>
 
+            <p>i have since stayed single (10 months now) and focused on my friendships. </p>
+
             <p>i want the petite bouquets at trader joes. i want more circle lamps from ikea. i want a live rabbit as a pet. i&apos;m not too sure if i want a family. i want more vivian westwood.</p>
 
             <p>for my gf/fiance/wife i will buy or pick flowers or write a note at least once every month. whether it is a small flower from the side of the road or a big bouquet, a long handwritten letter or a small scribble. UNLESS they have a drastically different love language.</p>
