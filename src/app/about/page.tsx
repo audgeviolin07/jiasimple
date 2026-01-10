@@ -60,7 +60,7 @@ export default function About() {
 
             <p>some other quirks about me are that i am a big germaphobe. my friends keep teasing me about it but lowkey it probably does get annoying for them sometimes. i can&apos;t drink restaurant water without a piece of mind and i need to have it with a slice of lemon. then i proceed to eat the whole lemon slice with the rind. i love lemons a lot.</p>
 
-            <p>day 507: 40 pull-ups a day</p>
+            <p>day 507 of 20 (now 40) pull-ups a day</p>
 
             <p>what my exes (3.5) have said about me:</p>
             <ul className="space-y-2">
