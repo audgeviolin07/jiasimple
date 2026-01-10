@@ -32,6 +32,11 @@ export default function About() {
 
             <p>the dreams (ones i had when asleep, subconscious) i had at this point were adventurous. i remember stealing snacks and candy in my dream.</p>
 
+            <div className="flex flex-col items-center">
+              <Image src="/bedroom.png" alt="my childhood bedroom" width={400} height={300} className="rounded-lg" />
+              <p className="text-sm text-gray-400 mt-2">my childhood bedroom</p>
+            </div>
+
             <p>in elementary school, i was imaginative and made up detailed scenarios at recess, drew comics and pretended i was a dragon. also a detailed 32 page story based off cat warriors that i co-wrote with two friends and a giant google slide doc where i invited all my friends to make their houses. i tried to do a youtube channel many times.</p>
 
             <p>something my mother told me at 16 changed the way i saw life. it was far from what anyone should say, and i&apos;ve viewed myself differently since then. i then spent all my time in the school cafeteria studying until 9pm every night to avoid being home.</p>
