@@ -33,7 +33,7 @@ export default function About() {
             <p>the dreams (ones i had when asleep, subconscious) i had at this point were adventurous. i remember stealing snacks and candy in my dream.</p>
 
             <div className="flex flex-col items-center">
-              <Image src="/bedroom.png" alt="my childhood bedroom" width={400} height={300} className="rounded-lg" />
+              <Image src="/bedroom.png" alt="my childhood bedroom" width={200} height={150} className="rounded-lg" />
               <p className="text-sm text-gray-400 mt-2">my childhood bedroom</p>
             </div>
 
