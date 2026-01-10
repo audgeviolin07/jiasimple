@@ -40,7 +40,7 @@ export default function About() {
             <p>in elementary school, i was imaginative and made up detailed scenarios at recess, drew comics and pretended i was a dragon. also a detailed 32 page story based off cat warriors that i co-wrote with two friends and a giant google slide doc where i invited all my friends to make their houses. i tried to do a youtube channel many times.</p>
 
             <p>something my mother told me at 16 changed the way i saw life. it was far from what anyone should say, and i&apos;ve viewed myself differently since then. i then spent all my time in the school cafeteria studying until 9pm every night to avoid being home.</p>
-
+===
             <p>in high school, some of my favorite places back in my hometown of okemos, MI were hiawatha hill (the small lake behind it), the watertower, and the secret trail across from the high school with a field of flowers, also a field at night. the dunkin donuts open 24/7 by the highway.</p>
 
             <p>18-20: i did a bunch of stuff during this time. grew content creation. the experience of having a short haircut. cptsd. worked at culvers. rejected from college.</p>
